@@ -1,0 +1,98 @@
+<% var data = {
+  title: "MatesMarketing - test1",
+}; %>
+
+<%= _.template(require('./../includes/header.html').default)(data) %>
+<!--content beginning-->
+<article class="article content">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-8">
+        <h1 class="content-header">
+          What 10 Things Should You Do Every Day To Improve Your Life?
+        </h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-9">
+        <p class="content-text">
+          Learning another language can keep your mind sharp. Music lessons increase
+          intelligence. Challenging your beliefs strengthens your mind.  Increasing
+          willpower just takes a little effort each day and it’s more responsible
+          for your success than IQ.
+        </p>
+        <div class="content-list">
+          <h3>Key features</h3>
+          <ul>
+            <li>It will make you happier.</li>
+            <li>It will improve your relationships.</li>
+            <li>It can make you a better person.</li>
+            <li>It can make life better for everyone around you.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+<!--section news-->
+<section class="section news">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        <h3 class="news-header">Recent news</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-2 col-md-4 col-sm-6">
+        <a href="#" class="news-item">
+          <div class="news-img">
+            <img src="uploads/img1.jpg" alt="img1">
+          </div>
+          <span class="news-description">Being in nature reduces stress, makes you more creative</span>
+        </a>
+      </div>
+      <div class="col-xl-2 col-md-4 col-sm-6">
+        <a href="#" class="news-item">
+          <div class="news-img">
+            <img src="uploads/img2.jpg" alt="img2">
+          </div>
+          <span class="news-description">Usability Testing for Mobile Is Easy</span>
+        </a>
+      </div>
+      <div class="col-xl-2 col-md-4 col-sm-6">
+        <a href="#" class="news-item">
+          <div class="news-img">
+            <img src="uploads/img3.jpg" alt="img3">
+          </div>
+          <span class="news-description">Infinite Scrolling Is Not for Every Website</span>
+        </a>
+      </div>
+      <div class="col-xl-2 col-md-4 col-sm-6">
+        <a href="#" class="news-item">
+          <div class="news-img">
+            <img src="uploads/img4.jpg" alt="img4">
+          </div>
+          <span class="news-description">Ecommerce UX: 3 Design Trends to Follow and 3 to Avoid</span>
+        </a>
+      </div>
+      <div class="col-xl-2 col-md-4 col-sm-6">
+        <a href="#" class="news-item">
+          <div class="news-img">
+            <img src="uploads/img5.jpg" alt="img5">
+          </div>
+          <span class="news-description">University Websites: Top 10 Design Guidelines</span>
+        </a>
+      </div>
+      <div class="col-xl-2 col-md-4 col-sm-6">
+        <a href="#" class="news-item">
+          <div class="news-img">
+            <img src="uploads/img6.jpg" alt="img6">
+          </div>
+          <span class="news-description">University Websites: Top 10 Design Guidelines</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!--content end-->
+<%= _.template(require('./../includes/footer.html').default)(data) %>

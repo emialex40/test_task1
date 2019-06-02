@@ -1,0 +1,89 @@
+.header
+  width: 100%
+  height: auto
+  background: inherit
+  //box-sizing: border-box
+  &-top-wrapper
+    padding-top: 27px
+    padding-bottom: 33px
+  &-logo
+    max-width: 364px
+    +respond-to(768)
+      margin: 0 auto
+    a
+      display: inline-block
+      font-family: $oswald
+      font-size: em(49,18)
+      color: $redLight
+      font-weight: 700
+      text-transform: uppercase
+      text-decoration: none
+      line-height: 1
+      letter-spacing: -0.8px
+    span
+      font-family: $pt
+      font-style: italic
+      font-size: em(18,18)
+      color: $dark
+      opacity: .5
+      padding-left: 8px
+  &-info
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    position: relative
+    max-width: 288px
+    +respond-to(1200)
+      float: right
+    +respond-to(768)
+      float: none
+      justify-content: center
+      align-items: center
+    +respond-to(768)
+      max-width: 268px
+      margin: 0 auto
+      padding-top: 30px
+  &-auth
+    display: inline-block
+    position: relative
+    align-self: center
+    +respond-to(1200)
+      margin-right: 30px
+    i
+      width: 13px
+      height: 13px
+      font-size: 14px
+      font-weight: 400
+      color: $red
+      text-decoration: none
+      position: absolute
+      top: 4px
+      left: -19px
+    span
+      font-family: $pt
+      font-size: em(13,18)
+      font-style: italic
+      color: $dark
+      text-transform: uppercase
+      text-decoration: inherit
+      padding-left: 4px
+  &-button
+    width: 191px
+    height: 45px
+    background: $red
+    border: none
+    font-family: $pt
+    font-size: 13px
+    color: $white
+    font-style: italic
+    text-transform: uppercase
+    margin-top: 5px
+    &:hover
+      opacity: .9
+      transition: .4s
+
+
+
+
+
+

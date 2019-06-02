@@ -1,0 +1,37 @@
+.news
+  padding-top: 59px
+  padding-bottom: 47px
+  background: $grey
+  &-header
+    font-family: $oswald
+    font-size: em(14,18)
+    font-weight: 400
+    color: $redLight
+    text-transform: uppercase
+    padding-bottom: 22px
+    +respond-to(1200)
+      text-align: center
+  &-item
+    display: block
+    max-width: 172px
+    +respond-to(1200)
+      margin: 0 auto
+    +respond-to(576)
+      padding-bottom: 30px
+  &-img
+    width: 172px
+    height: 115px
+    img
+      width: 100%
+      height: auto
+      object-fit: cover
+  &-description
+    display: block
+    margin-top: 8px
+    font-family: $oswald
+    font-size: em(18,18)
+    font-weight: 300
+    color: $dark
+    padding-right: 5px
+
+

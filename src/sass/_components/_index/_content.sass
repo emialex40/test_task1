@@ -1,0 +1,45 @@
+.content
+  background: $grey
+  padding-top: 51px
+  &-header
+    font-family: $oswald
+    font-size: em(49,18)
+    color: $dark
+    font-weight: 400
+    line-height: 60px
+    letter-spacing: .5px
+    +respond-to(480)
+      font-size: 24px
+      line-height: 40px
+  &-text
+    font-family: $pt
+    font-size: em(24,18)
+    font-weight: 400
+    padding-top: 40px
+    line-height: 36px
+  &-list
+    padding-top: 35px
+    h3
+      font-family: $pt
+      font-size: em(18,18)
+      color: $dark
+      font-weight: 700
+    ul
+      margin-top: 11px
+      list-style-position: inside
+      li
+        font-family: $pt
+        font-size: 18px
+        color: $dark
+        font-weight: 400
+        line-height: 1.6
+        position: relative
+        padding-left: 20px
+        &:before
+          content: '.'
+          color: $dark
+          font-size: 42px
+          position: absolute
+          top: -30px
+          left: -4px
+
